@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath>
+using namespace std; 
+double hypot (double p, double b){
+return (sqrt((pow(p,2))+(pow(b,2))));
+}
+int main (){
+    double p, b;
+cout << "enter your perpendicular  :" << endl;
+cin >> p;
+
+cout << "enter your base :" << endl;
+cin >> b;
+
+    double h = hypot(p,b);
+    cout << "your ans :" << h << endl;
+    return 0;
+}
