@@ -11,7 +11,6 @@ int main() {
     do {
         cout << "\n*****************************************" << endl;
         cout << "********* ROCK-PAPER-SCISSORS *********" << endl;
-        cout << "*****************************************" << endl;
 
         cout << "Enter (r)ock, (p)aper, or (s)cissors: ";
         cin >> human;
